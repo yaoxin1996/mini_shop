@@ -47,6 +47,6 @@
   content: "\e604";
 }
 
-.icon-dingdan-:before {
+.icon-dingdan:before {
   content: "\e637";
 }

@@ -18,7 +18,9 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#F7BCC1",
     "navigationBarTitleText": "优购",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle":"white",
+    "onReachBottomDistance":50
+    
   },
   "tabBar": {
     "color": "#999",
@@ -48,7 +50,6 @@
       "selectedIconPath": "icons/my-o.png"
     }]
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
 

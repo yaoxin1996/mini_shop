@@ -1,2 +1,21 @@
-<!--pages/order/index.wxml-->
-<text>pages/order/index.wxml</text>
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+  <view class="order_main">
+    <view
+      class="order_item"
+      wx:for="{{5}}"
+      wx:key="index">
+      <view class="order_no_row">
+        <view class="order_no_text">订单编号</view>
+        <view class="order_no_value">2020113019961218</view>
+      </view>
+      <view class="order_price_row">
+        <view class="order_price_text">订单价格</view>
+        <view class="order_price_value">￥100</view>
+      </view>
+      <view class="order_time_row">
+        <view class="order_time_text">订单日期</view>
+        <view class="order_time_value">2020-11-30</view>
+      </view>
+    </view>
+  </view>
+</Tabs>
